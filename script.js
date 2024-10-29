@@ -48,7 +48,7 @@ function playSound(key) {
 			break;
 
 		case "j":
-			var crash = new Audio("sounds/crash.mp3");
+			var crash = new Audio("sounds/snare.mp3");
 			crash.play();
 			break;
 
@@ -58,7 +58,7 @@ function playSound(key) {
 			break;
 
 		case "l":
-			var kick = new Audio("sounds/snare.mp3");
+			var kick = new Audio("sounds/crash.mp3");
 			kick.play();
 			break;
 
