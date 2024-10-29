@@ -53,12 +53,12 @@ function playSound(key) {
 			break;
 
 		case "k":
-			var snare = new Audio("sounds/snare.mp3");
+			var snare = new Audio("sounds/kick-bass.mp3");
 			snare.play();
 			break;
 
 		case "l":
-			var kick = new Audio("sounds/kick-bass.mp3");
+			var kick = new Audio("sounds/snare.mp3");
 			kick.play();
 			break;
 
